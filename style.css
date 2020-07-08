@@ -1,0 +1,204 @@
+/*pagina principal*/
+body{
+    background-color:#1c1e21;
+    height:46em;
+    background-image: url(img/papel-de-parede/MARVEL.jpg);
+    background-size: 100%;
+    color:#fff;
+    margin:0px;
+    font-family: 'Roboto';
+}
+.container{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    background-color:#1c1e21;
+    font-family: Audiowide;
+}
+header{
+    width:100%;
+    padding-top: 1px;
+    margin-left: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.marvel{
+    margin:auto;
+    margin-top:80px;
+}
+.logo{
+    width:180px;
+    margin-top:15px;
+    margin-left: 25px;
+}
+.histCuri{
+    float:right;
+    margin-right:220px;
+    margin-top:30px;
+    position: relative;
+    top: -115px;
+    right: -35px;
+}
+
+section{
+    margin-top:80px;
+}
+.texto1{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aviso{
+    font-size:12px;
+    margin-top: 70px;
+    margin-bottom:-50px;
+}
+footer{
+    text-align:center;
+    margin-top: 25px;
+    font-size: 18px;
+
+}
+/*pseudoclasse/elemento*/
+.capAme:hover{
+    background-color: #fff;
+    color:#005fbf;
+}
+.homemdeferro:hover{
+    background-color: #fff;
+    color:#ff0000;
+}
+    
+footer::first-letter{
+    color: #ff0000;
+}
+.histCuri::first-letter{
+    
+    color:#ff0000;
+    font-size:2em;
+}
+.footeriron::first-letter{
+    color:#0000ff;
+}
+img:first-child{
+    width:200px;
+}
+::selection{
+    color:#fff;
+    background-color: #ff0000;
+}
+.homemdeferro::selection{
+    color: #fff;
+    background-color: #0000ff;
+}
+/*fim pagina principal*/
+
+
+
+/*pagina 1*/
+.bodyCap{
+    height:70em;
+    background-color: #191970;
+    background-image: url(img/papel-de-parede/capitãoamerica.jpg);
+    background-size: 2700px;
+    color:#ffffff;
+    font-family: 'Roboto';
+}
+.containerP1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #131c2d;
+    width:1000px;
+    height: 100%;
+    margin-top:380px;
+}
+#tituloCap{
+    text-align: center;
+    padding-top:50px;
+    font-family:'Audiowide';
+}
+.tituloCap{
+    margin-left:30px;
+}
+p.historia {
+    font-size: 16px;
+    text-align: left;
+    float:left;
+    margin-left: 30px;
+    font-family: 'Roboto';
+}
+.historia{
+    height:25%;
+}
+.curiosidades{
+    margin-top:100px;
+}
+#fotohistoria{
+    float:right;
+    width:300px;
+    margin-right:90px;
+}
+#footerCap{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 18px;
+}
+#linhaCap{
+    font-size: 14px;
+    line-height: 2em;
+}
+/*fim da pagina 1*/
+
+
+
+/*pagina 2*/
+.bodyiron{
+    height: 62em;
+    background-image: url(img/papel-de-parede/homemdeferro.jpg);
+    background-size: 2700px;
+    font-family: 'Roboto';
+    color:#fff;
+}
+.containerP2{
+    width:1000px;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 380px;
+    background-color: #ae2c26;
+}
+#tituloironman{
+    text-align: center;
+    padding-top:50px;
+    font-family: 'Audiowide';
+}
+.tituloiron{
+    margin-left:30px;
+}
+.curiosidadesiron{
+    margin-top:150px;
+}
+.textoP{
+    float:left;
+    margin-left:30px;
+}
+#fotoiron{
+    float:right;
+    width:300px;
+    margin-right:50px;
+}
+.historiairon{
+    height:25%;
+}
+#linhairon{
+    line-height:2em;
+}
+.footeriron{
+    margin-top:130px;
+    font-size: 18px;
+    text-align: center;
+}
+/*fim da pagina 2*/
