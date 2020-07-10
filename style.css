@@ -1,7 +1,7 @@
 /*pagina principal*/
 body{
     background-color:#1c1e21;
-    height:46em;
+    height:50em;
     background-image: url(img/papel-de-parede/MARVEL.jpg);
     background-size: 100%;
     color:#fff;
@@ -71,7 +71,10 @@ footer{
     background-color: #fff;
     color:#ff0000;
 }
-    
+.tamanhoImagem:hover{
+    transition: 0.1s;
+    width:300px;
+}
 footer::first-letter{
     color: #ff0000;
 }
